@@ -1,0 +1,228 @@
+/* =========================
+   SIDE NAVIGATION
+========================= */
+
+.student-side-nav {
+    position: fixed;
+
+    left: 0;
+    top: 70px;
+
+    width: 220px;
+    height: calc(100vh - 70px);
+
+    background-color: #212529;
+
+    padding: 25px 15px;
+
+    box-sizing: border-box;
+
+    z-index: 1000;
+}
+
+
+/* =========================
+   SIDE NAV HEADING
+========================= */
+
+.student-side-nav h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+.student-side-nav a {
+    display: block;
+
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 15px;
+    margin-bottom: 8px;
+
+    border-radius: 5px;
+}
+
+.student-side-nav a:hover {
+    color: white;
+    background-color: #495057;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.student-content {
+    margin-left: 220px;
+
+    width: calc(100% - 220px);
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.student-content table {
+    width: 90%;
+    font-size: 14px;
+}
+
+.student-content th,
+.student-content td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.student-content td {
+    white-space: nowrap;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .student-side-nav {
+        position: relative;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: auto;
+
+        padding: 15px;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .student-side-nav h3 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .student-side-nav a {
+        display: inline-block;
+
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .student-content {
+        margin-left: 0;
+
+        width: 100%;
+
+        padding: 15px;
+
+        overflow-x: auto;
+    }
+
+    .student-content table {
+        width: 100%;
+    }
+}
+/* =========================
+   TOP LOG NAVIGATION
+========================= */
+
+.lognav {
+    position: fixed !important;
+
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+
+    width: 100% !important;
+    height: 70px;
+
+    z-index: 9999 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background-color: #212529 !important;
+}
+
+
+/* Navbar container */
+
+.lognav .container {
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* Softtech text */
+
+.lognav .navbar-brand {
+    color: white !important;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+
+/* Logout button */
+
+.lognav button {
+    margin-left: auto;
+}
+
+
+/* =========================
+   STUDENT SIDE NAV
+========================= */
+
+.student-side-nav {
+    position: fixed !important;
+
+    top: 70px !important;
+    left: 0 !important;
+
+    width: 220px;
+
+    height: calc(100vh - 70px);
+
+    background-color: #212529;
+
+    padding: 25px 15px;
+
+    box-sizing: border-box;
+
+    z-index: 9998 !important;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.student-content {
+    margin-left: 220px;
+
+    padding: 90px 20px 20px 20px;
+
+    width: calc(100% - 220px);
+
+    box-sizing: border-box;
+}

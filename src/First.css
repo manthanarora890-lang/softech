@@ -1,0 +1,141 @@
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0px;
+    background-color: azure;
+    overflow: hidden;
+
+}
+li
+{
+    padding: 16px;
+    float: right;
+}
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.s
+{
+    float: none;
+    text-align: left;
+}
+.n
+{
+    float: none;
+}
+table
+{
+    width: 100%;
+}
+.foot
+{
+    border: 3px solid black;
+}
+.announs
+{
+    border: 3px solid black;
+}
+.news
+{
+     border: 3px solid black;
+}
+.bar
+{
+     border: 3px solid black;
+}
+.imo
+{
+     border: 3px solid black;
+}
+.bar1{
+    float: left;
+}
+.announss
+{
+    display: 50%;
+}
+.news
+{
+    display: 50%;
+}
+h1
+{
+    text-align: center;
+}
+.baar1{
+    text-align: right;
+}
+.bro{
+    text-align: right;
+}
+.udar{
+    color: cornsilk;
+}
+ .page-content {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+}
+ .login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f4f7;
+}
+
+.login-box {
+    width: 380px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+.login-box p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #212529;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background-color: #212529;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #495057;
+}
